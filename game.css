@@ -1,0 +1,94 @@
+     /* General Styles */
+     body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(45deg, #f79bca, #da95f5); 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .game-container {
+        text-align: center;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)); 
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .choice-btn {
+        background: pink; 
+        color: rgb(0, 0, 0);
+        border: none;
+        padding: 10px 20px;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 1rem;
+        border-radius: 5px;
+        transition: background 0.3s ease-in-out;
+    }
+
+    .choice-btn:hover {
+        background:  linear-gradient(45deg, #FF5722, #FF7043); 
+    }
+    .status {
+        font-size: 1.2rem;
+        margin: 20px 0;
+        font-weight: bold;
+        color: #333;
+    }
+
+    #score p {
+        font-size: 1.1rem;
+        margin: 5px;
+    }
+
+    #rounds {
+        margin: 20px 0;
+        font-size: 1.2rem;
+    }
+
+    .final-result {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 20px;
+        color: #333;
+    }
+
+    .final-result.win {
+        color: #4fd353; 
+    }
+
+    .final-result.lose {
+        color: #F44336;
+    }
+
+    .final-result.tie {
+        color: #6bb8de;
+    }
+
+    #restart-btn {
+        background: pink; 
+        color: rgb(0, 0, 0);
+        border: none;
+        padding: 10px 20px;
+        margin: 20px 0; 
+        cursor: pointer;
+        font-size: 1rem;
+        border-radius: 5px;
+        transition: background 0.3s ease-in-out;
+        display: none; 
+    }
+
+    #restart-btn:hover {
+        background: linear-gradient(45deg, #FF5722, #FF7043); 
+    }
